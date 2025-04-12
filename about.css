@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+img{
+    height: 20rem;
+    width: 20rem;
+}
+.content{
+    display:inline-block;
+    justify-content: center;
+    padding: 10px 200px;
+    text-align: justify;
+}
+a {
+    color: purple;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
